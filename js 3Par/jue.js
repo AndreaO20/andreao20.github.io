@@ -22,7 +22,7 @@ var musica, sonido1, sonido2, sonido3;
 
 var nivel = 1;
 
-var stiloMapa = 'img/tilemap9.png';
+var stiloMapa = 'img 3par/tilemap9.png';
 
 //Traer sonidos
 musica = new Howl({
@@ -515,7 +515,7 @@ var jugador = function () {
 function cambiaStilo(tile) {
   switch (tile) {
     case 1:
-      stiloMapa = 'img/tilemap10.png';
+      stiloMapa = 'img 3par/tilemap10.png';
       tileMap = new Image();
 
 
@@ -532,7 +532,7 @@ function cambiaStilo(tile) {
       protagonista.dibuja();
       break;
     case 2:
-      stiloMapa = 'img/tilemap8.png';
+      stiloMapa = 'img 3par/tilemap8.png';
       tileMap = new Image();
 
 
@@ -548,7 +548,7 @@ function cambiaStilo(tile) {
       protagonista.dibuja();
       break;
     case 3:
-      stiloMapa = 'img/tilemap4.png';
+      stiloMapa = 'img 3par/tilemap4.png';
       tileMap = new Image();
 
 
